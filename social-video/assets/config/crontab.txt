@@ -1,0 +1,6 @@
+# giờ máy chủ = Asia/Ho_Chi_Minh (sudo timedatectl set-timezone Asia/Ho_Chi_Minh)
+SHELL=/bin/bash
+PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/Users/TEN_BAN/.local/bin   # đổi TEN_BAN; cron không hiểu ~ trong PATH
+5 7  * * * cd ~/goc-nhin && flock -w 3600 .lock claude -p "/social-video research goc-nhin-da-chieu" >> logs/cron.log 2>&1
+35 11 * * * cd ~/goc-nhin && flock -w 3600 .lock claude -p "/social-video produce goc-nhin-da-chieu" >> logs/cron.log 2>&1
+20 19 * * * cd ~/goc-nhin && flock -w 3600 .lock claude -p "/social-video publish goc-nhin-da-chieu" >> logs/cron.log 2>&1

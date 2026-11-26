@@ -1,0 +1,79 @@
+[
+ {
+  "file": "library/tower.png",
+  "kind": "building",
+  "tags": [
+   "toà nhà",
+   "văn phòng",
+   "doanh nghiệp",
+   "trụ sở"
+  ]
+ },
+ {
+  "file": "library/exec.png",
+  "kind": "person",
+  "tags": [
+   "lãnh đạo",
+   "doanh nhân",
+   "tablet",
+   "nam"
+  ]
+ },
+ {
+  "file": "library/engineers.png",
+  "kind": "person",
+  "tags": [
+   "kỹ sư",
+   "nhóm",
+   "công nghệ",
+   "nhìn lên"
+  ]
+ },
+ {
+  "file": "library/ai-engineer.png",
+  "kind": "person",
+  "tags": [
+   "kỹ sư",
+   "AI",
+   "laptop",
+   "nữ"
+  ]
+ },
+ {
+  "file": "library/train.png",
+  "kind": "object",
+  "tags": [
+   "tàu metro",
+   "đường sắt đô thị",
+   "giao thông"
+  ]
+ },
+ {
+  "file": "library/tbm.png",
+  "kind": "object",
+  "tags": [
+   "máy khoan hầm",
+   "hạ tầng",
+   "xây dựng",
+   "đi ngầm"
+  ]
+ },
+ {
+  "file": "library/engineers2.png",
+  "kind": "person",
+  "tags": [
+   "kỹ sư công trường",
+   "mũ bảo hộ",
+   "xây dựng"
+  ]
+ },
+ {
+  "file": "library/commuters.png",
+  "kind": "person",
+  "tags": [
+   "người dân",
+   "hành khách",
+   "người đi làm"
+  ]
+ }
+]

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read", "Edit", "Write", "Glob", "Grep", "WebFetch", "WebSearch",
+      "Bash(python3 scripts/*)", "Bash(node scripts/*)", "Bash(node scripts/*)", "Bash(bash scripts/*)", "Bash(scripts/notify_telegram.sh *)",
+      "Bash(npx remotion *)", "Bash(npm run *)", "Bash(ffmpeg *)", "Bash(ffprobe *)",
+      "Bash(curl -sS *)", "Bash(mkdir *)", "Bash(cp *)", "Bash(mv *)", "Bash(ls *)", "Bash(cat *)", "Bash(jq *)", "Bash(touch *)", "Bash(date *)"
+    ],
+    "deny": ["Read(secrets/**)", "Bash(cat secrets/*)", "Bash(rm -rf /*)", "Bash(sudo *)", "Bash(ssh *)", "Bash(scp *)"]
+  }
+}

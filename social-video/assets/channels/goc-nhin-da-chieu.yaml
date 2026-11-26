@@ -1,0 +1,21 @@
+name: Góc nhìn đa chiều
+slug: goc-nhin-da-chieu
+language: vi
+topics: [chứng khoán, doanh nghiệp niêm yết, bất động sản, vĩ mô, lãi suất]
+accent: {stocks: "#f28a1e", realestate: "#c4502f", macro: "#48d597"}
+sources:
+  - https://cafef.vn/thi-truong-chung-khoan.chn
+  - https://cafef.vn/bat-dong-san.chn
+  - https://vneconomy.vn/chung-khoan.htm
+  - https://vnexpress.net/kinh-doanh
+  - https://mekongasean.vn/
+  - https://vietstock.vn/
+voice: {engine: vieneu, voice: "Thanh Bình", style: doc_truyen}
+video: {length_target_s: 170, max_s: 178, fps: 30, size: [1080, 1920]}
+platforms:
+  youtube: {enabled: true, privacy: public}
+  facebook: {enabled: true}
+  tiktok: {enabled: true, ai_label: true}
+auto_publish: false        # 1-2 tuần đầu: chờ anh trả lời OK trên Telegram
+avoid_repeat_days: 14
+disclaimer: "Không phải khuyến nghị đầu tư."

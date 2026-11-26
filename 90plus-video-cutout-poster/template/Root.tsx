@@ -1,0 +1,18 @@
+import React from 'react';
+import {Composition} from 'remotion';
+import {XGVideo, XG_DUR} from './XG';
+import {MUVideo, MU_DUR} from './MU';
+import {MU2Video, MU2_DUR} from './MU2';
+import {MULVideo, MUL_DUR} from './MUL';
+import {MUTVideo, MUT_DUR} from './MUT';
+import {MUVVideo, MUV_DUR} from './MUV';
+import {MUIVideo, MUI_DUR} from './MUI';
+import {Main} from './Video';
+import {Main2} from './V2';
+import {MezzalaRDH, MZ_FRAMES} from './MZ';
+import {GPVox, GPDoc, GPShort, GP_T} from './GP';
+import {FlowVox, FLOW_DUR} from './Flow';
+import {Maracanazo10, M50_DUR} from './M50';
+import {s, END} from './timeline';
+export const Root: React.FC = () => <><Composition id="MUI" component={MUIVideo} durationInFrames={Math.round(MUI_DUR*30)} fps={30} width={1920} height={1080} /><Composition id="MUV" component={MUVVideo} durationInFrames={Math.round(MUV_DUR*30)} fps={30} width={1920} height={1080} /><Composition id="MUT" component={MUTVideo} durationInFrames={Math.round(MUT_DUR*30)} fps={30} width={1920} height={1080} /><Composition id="MUL" component={MULVideo} durationInFrames={Math.round(MUL_DUR*30)} fps={30} width={1920} height={1080} /><Composition id="MU2" component={MU2Video} durationInFrames={Math.round(MU2_DUR*30)} fps={30} width={1080} height={1920} /><Composition id="MU" component={MUVideo} durationInFrames={Math.round(MU_DUR*30)} fps={30} width={1080} height={1920} /><Composition id="XG" component={XGVideo} durationInFrames={Math.round(XG_DUR*30)} fps={30} width={1080} height={1920} /><Composition id="M50" component={Maracanazo10} durationInFrames={M50_DUR*30} fps={30} width={1080} height={1920} /><Composition id="FLOW" component={FlowVox} durationInFrames={FLOW_DUR*30} fps={30} width={1080} height={1920} /><Composition id="GPA" component={GPVox} durationInFrames={Math.round(GP_T.A.dur*30)} fps={30} width={1080} height={1920} /><Composition id="GPB" component={GPDoc} durationInFrames={Math.round(GP_T.B.dur*30)} fps={30} width={1080} height={1920} /><Composition id="GPC" component={GPShort} durationInFrames={Math.round(GP_T.C.dur*30)} fps={30} width={1080} height={1920} /><Composition id="MZ" component={MezzalaRDH} durationInFrames={MZ_FRAMES} fps={30} width={1080} height={1920} /><Composition id="V2" component={Main2} durationInFrames={s(END)} fps={30} width={1920} height={1080} /><Composition id="Main" component={Main} durationInFrames={s(END)} fps={30} width={1920} height={1080} /></>;
+export const _x = 0;
